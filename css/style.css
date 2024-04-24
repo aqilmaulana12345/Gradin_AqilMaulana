@@ -1,0 +1,42 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.primary-copy {
+  margin-top: 10px;
+}
+
+.nav-link{
+  color:white;
+font-weight: 300;
+}
+
+
+
+.fixed-bottom {
+  position: fixed; /* Menjadikan posisi elemen tetap di layar */
+  bottom: 0; /* Memposisikan elemen di bagian bawah *
+  right: 0;
+}
+
+.text-center {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .float-right {
+    text-align: right;
+  }
+  .primary-copy {
+    left: 20px;
+  }
+  .float-left {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .nav-item-1 {
+    display: none;
+  }
+}
